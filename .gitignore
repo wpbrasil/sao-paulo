@@ -1,3 +1,6 @@
 #OSX Files
 .DS_Store
 **/***/.DS_Store
+
+#SASS
+**/***/.sass-cache/**
