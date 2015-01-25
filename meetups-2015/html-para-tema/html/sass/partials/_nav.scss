@@ -1,0 +1,23 @@
+nav {
+  float: right;
+  ul { display: inline; }
+
+  li {
+    display: inline;
+    margin: 0 10px;
+    font-family: Helvetica;
+    &:first-child { margin-left: 0; }
+
+    &:last-child { margin-right: 0; }
+
+    a {
+      color: #fff;
+      font-weight: 300;
+      &:active,
+      &:hover {
+        text-decoration: none;
+        color: #336699;
+      }
+    }
+  }
+}
