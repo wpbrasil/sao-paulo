@@ -5,22 +5,22 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-8 primary">
+        {% for pub in site.publications %}
         <div class="col-md-6">
           <article itemscope itemtype="http://schema.org/BlogPosting">
             <header>
-              <figure><img src="assets/images/news-01.jpg" alt="" class="img-responsive"></figure>
-              <h2 class="post-title" itemprop="headline">Lorem Ipsum</h2>
+              <figure><img src="assets/images/{{ pub.thumb }}" alt="" class="img-responsive"></figure>
+              <h2 class="post-title" itemprop="headline">{{ pub.title }}</h2>
               <p class="metadata sr-only">
-                Publicado por: <a href="#" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Fulano</span></a> em <span itemprop="datePublished" content="2015-01-22">22/01/2015</span> na categoria <a href="#">Blog</a>
+                Publicado por: <a href="#" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ pub.author }}</span></a> em <span itemprop="datePublished" content="2015-01-22">22/01/2015</span> na categoria <a href="#">{{ pub.category }}</a>
               </p>
             </header>
             <div class="content" itemprop="description">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione velit vero incidunt totam, quaerat modi, ullam molestias illo tempore adipisci asperiores temporibus nam labore aspernatur exercitationem corrupti omnis, sit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos fugit quas tempora qui nisi consectetur quisquam, nemo minima. Eveniet atque voluptatum odio, laudantium natus hic aliquid perferendis dolores iusto!
-              </p>
+              <p>{{ pub.content }}</p>
             </div>
           </article>
         </div>
+        {% endfor %}
       </div>
       <div class="col-md-4 secondary">
         <aside>

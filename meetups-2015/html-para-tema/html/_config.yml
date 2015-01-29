@@ -12,3 +12,17 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+publications:
+  -
+    thumb: "news-01.jpg"
+    title: "Lorem Ipsum"
+    author: "Fulano"
+    category: "Blog"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione velit vero incidunt totam, quaerat modi, ullam molestias illo tempore adipisci asperiores temporibus nam labore aspernatur exercitationem corrupti omnis, sit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos fugit quas tempora qui nisi consectetur quisquam, nemo minima. Eveniet atque voluptatum odio, laudantium natus hic aliquid perferendis dolores iusto!"
+  -
+    thumb: "news-02.jpg"
+    title: "Lorem Ipsum sit amet"
+    author: "Cicrano"
+    category: "Preguetinho"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione velit vero incidunt totam, quaerat modi, ullam molestias illo tempore adipisci asperiores temporibus nam labore aspernatur exercitationem corrupti omnis, sit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos fugit quas tempora qui nisi consectetur quisquam, nemo minima. Eveniet atque voluptatum odio, laudantium natus hic aliquid perferendis dolores iusto!"
