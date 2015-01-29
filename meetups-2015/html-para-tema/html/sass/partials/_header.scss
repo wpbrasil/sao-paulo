@@ -25,6 +25,11 @@
   }
 
   .site-title {
+    color: #fff;
     float: left;
+
+    .highlight {
+      color: $primary-color;
+    }
   }
 }
