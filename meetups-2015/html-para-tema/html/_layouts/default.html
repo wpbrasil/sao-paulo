@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body>
+  <body {% if page.path == "index.html" %}class="home"{% endif %}>
     {% include header.html %}
       <main>
         {{content}}
