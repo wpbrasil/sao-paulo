@@ -11,6 +11,8 @@ article {
 
 .category {
   article {
+    margin-bottom: 20px;
+    @include box-shadow( 0 0 10px rgba( 0, 0, 0, 0.5) );
     .post-title {
       font-size: 24px;
       margin-bottom: -15px;
