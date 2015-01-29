@@ -1,4 +1,4 @@
-@mixin square-bkg {
+.square-bkg {
   background-image: url("../images/news-background.png");
   background-repeat: repeat;
   background-position: left top;
@@ -7,8 +7,9 @@
 .news {
   color: #fff;
   padding-bottom: 70px;
-  @inlcude square-bkg;
+  @extend .square-bkg;
   .news-feature {
+    background-color: transparent;
     padding: 50px 0;
     .title {
       font-size: 30px;
@@ -46,5 +47,5 @@
 .single,
 .category {
   padding: 30px 0;
-  @include square-bkg;
+  @extend .square-bkg;
 }
