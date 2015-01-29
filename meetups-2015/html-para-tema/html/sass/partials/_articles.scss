@@ -14,9 +14,26 @@ article {
     margin-bottom: 20px;
     clear: both;
     @include box-shadow( 0 0 10px rgba( 0, 0, 0, 0.5 ) );
+    &:hover {
+      cursor: pointer;
+      -webkit-animation: shadow 0.5s linear;
+      animation: shadow 0.5s linear;
+      @include box-shadow( 0 0 10px rgba( 255, 255, 255, 0.5 ) );
+    }
+
     .post-title {
       font-size: 24px;
       margin-bottom: -15px;
     }
   }
+}
+
+@-webkit-keyframes shadow {
+  0% { @include box-shadow( 0 0 10px rgba( 0, 0, 0, 0.5 ) ); }
+  100% { @include box-shadow( 0 0 10px rgba( 255, 255, 255, 0.5 ) ); }
+}
+
+@keyframes shadow {
+  0% { @include box-shadow( 0 0 10px rgba( 0, 0, 0, 0.5 ) ); }
+  100% { @include box-shadow( 0 0 10px rgba( 255, 255, 255, 0.5 ) ); }
 }
