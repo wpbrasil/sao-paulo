@@ -21,6 +21,7 @@
     .thumb { @include box-shadow( 0 0 12px #000 ); }
 
     a {
+      font-size: 36px;
       color: #fff;
       text-decoration: none;
     }
@@ -33,6 +34,7 @@
       color: $primary-color;
       font-size: 20px;
       padding: 5px 10px;
+      margin-bottom: -15px;
     }
 
     .excerpt {
