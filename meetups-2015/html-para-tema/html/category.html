@@ -3,6 +3,12 @@ layout: default
 ---
 <div class="category category-lorem">
   <div class="container">
+    <div class="col-xs-12 page-title">
+      <h1>Categoria: Lorem Ipsum</h1>
+      <p class="category-desc">
+        Descrição da categoria: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
+      </p>
+    </div>
     <div class="row">
       <div class="col-md-8 primary">
         {% for pub in site.publications %}
@@ -22,7 +28,7 @@ layout: default
         </div>
         {% endfor %}
       </div>
-     {% include sidebar.html %}
+      {% include sidebar.html %}
     </div>
   </div>
 </div>

@@ -51,3 +51,14 @@
   padding: 100px 0 30px;
   @extend .square-bkg;
 }
+
+.page-title {
+  color: #fff;
+  h1 { margin-bottom: 20px; }
+
+  .category-desc {
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+}
