@@ -4,5 +4,9 @@ body {
 }
 
 a {
-  &:hover { text-decoration: none; }
+  &:active,
+  &:hover {
+    text-decoration: none;
+    color: $primary-color;
+  }
 }

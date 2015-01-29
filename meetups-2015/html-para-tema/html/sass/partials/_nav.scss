@@ -12,11 +12,6 @@ nav {
     a {
       color: #fff;
       font-weight: 300;
-      &:active,
-      &:hover {
-        text-decoration: none;
-        color: $primary-color;
-      }
     }
   }
 }
