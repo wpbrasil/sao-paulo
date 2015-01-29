@@ -1,0 +1,13 @@
+aside {
+  color: #fff;
+  .widget {
+    &:first-child {
+      .widget-title { margin-top: 0; }
+    }
+  }
+
+  .widget-title {
+    border-bottom: 1px solid #336699;
+    margin: 10px 0;
+  }
+}
